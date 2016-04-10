@@ -1,0 +1,16 @@
+h1, h2, p {
+	color: red;
+}
+
+body {
+	font-family: cursive;
+	font: times new roman;
+}
+
+p {
+	color: blue;
+}
+
+body {
+	background-color: green;
+}
