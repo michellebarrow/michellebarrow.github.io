@@ -1,16 +1,93 @@
-h1, h2, p {
-	color: red;
+h1  {
+	color: green;
+	font-size: 2em;
+	style: italic;
 }
+
+#bluest-color {
+	color: blue;
+}
+
+.span-color {
+	color: green;
+}
+
+h2 {
+	color: yellow;
+	text-align: center;
+
+}
+
+#fill-time {
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-image: url("thatgrandmalife.jpg");
+	width: 100%;
+	margin: auto;
+	position: static;
+}
+
+/*img { 
+	
+	padding: auto;
+	margin-left: -10px;
+	float: left;
+
+	 }*/
+
+td, th {
+	border: 10px solid blue;
+	color: yellow;
+	float: center;
+	text-align: center;
+	background-color: black;
+
+}
+
+a {
+	color: yellow;
+}
+
+ol li {
+	font-size: 3em;
+}
+
+.table-color {
+	border-color: yellow;
+	font-size: 1.5em;
+	float: center;
+	align-items: center;
+}
+
+#wrap {
+	width: 500px;
+	margin: auto;
+}
+
+a:link    { color: #FF0000; } 
+         a:visited { color: #00FF00; } 
+         a:hover   { color: #FF00FF; } 
+         a:active  { color: #0000FF; }
+
 
 body {
 	font-family: cursive;
 	font: times new roman;
+background-attachment: fixed;
+  background-image: url("backgroundphoto.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+	;
+}
+
+li {
+	color: white;
 }
 
 p {
 	color: blue;
 }
 
-body {
-	background-color: green;
-}
